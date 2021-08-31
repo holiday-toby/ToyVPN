@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ToyVPN</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="app">ToyVPN</string>
+    <string name="address">Server Address:</string>
+    <string name="port">Server Port:</string>
+    <string name="secret">Shared Secret:</string>
+    <string name="connect">Connect!</string>
+    <string name="disconnect">Disconnect!</string>
+    <string name="proxyhost">HTTP proxy hostname</string>
+    <string name="proxyport">HTTP proxy port</string>
+    <string name="packages">Packages (comma separated):</string>
+    <string name="allowed">Allow</string>
+    <string name="disallowed">Disallow</string>
+    <string name="connecting">ToyVPN is connecting...</string>
+    <string name="connected">ToyVPN is connected!</string>
+    <string name="disconnected">ToyVPN is disconnected!</string>
+    <string name="incomplete_proxy_settings">
+        Incomplete proxy settings. For HTTP proxy we require both hostname and port settings.
+    </string>
+    <string name="unknown_package_names">
+        Some of the specified package names do not correspond to any installed packages.
+    </string>
+</resources>
